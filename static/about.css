@@ -1,0 +1,51 @@
+/* Google fonts - Open Sans */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* Define color variables */
+:root {
+    --blue: #185875;
+    --yellow: #FFF842;
+    --dark-bg: #1F2739;
+    --light-bg: #2C3446;
+    --text: #A7A1AE;
+}
+
+/* Body styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.42em;
+    color: var(--text);
+    background-color: var(--dark-bg);
+    text-align: center;
+    padding: 50px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1em;
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+
+/* Link styles */
+a.button {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a.button:hover {
+    background-color: #13505B;
+    color: white;
+}
